@@ -1,0 +1,110 @@
+<div class="gallery" >
+  {% for block in section.blocks %}
+  	{% if block.type == "image" %}
+  	<div class="image-wrap" 
+         style="background-image:url('{{ block.settings.image |img_url: "1000x"}}')">
+      
+  	</div>
+  	{%endif %}
+   	{% if block.type == "video" %}
+  	<div class="image-wrap" 
+         style="background-image:url('{{ block.settings.video_url |video_url: "1000x"}}')">
+      
+  	</div>
+  	{%endif %}
+  
+  	
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Gallery",
+    "settings": [
+        {
+        "type": "select",
+        "id": "per-row",
+        "label": "Images per row",
+        "options": [
+          {
+            "value": "49.5%",
+            "label": "2 per row"
+          },
+          {
+            "value": "33%",
+            "label": "3 per row"
+          },
+          {
+            "value": "25%",
+            "label": "4 per row"
+          }
+        ],
+        "default": "33%"
+      },
+      {
+        "type": "select",
+        "id": "height",
+        "label": "Height",
+        "options": [
+          {
+            "value": "300px",
+            "label": "300px"
+          },
+          {
+            "value": "400px",
+            "label": "400px"
+          },
+          {
+            "value": "500px",
+            "label": "500px"
+          }
+        ],
+        "default": "500px"
+      }
+
+	],
+	"blocks": [
+		{
+          "type": "image",
+          "name": "Image Blockkkk",
+          "settings": [
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              },
+			  {
+                "type": "video_url",
+                "id": "product_description_video",
+                "label": "Product description video",
+                "accept": [
+                  "youtube",
+                  "vimeo"
+                ]
+              }
+  		   ]
+		}
+        
+	],
+	"presets": [
+     {
+       "category": "Custom Content",
+	   "name": "Gallery"
+	 }
+	]
+    
+  }
+{% endschema %}
+
+{% style %}
+.image-wrap{
+	display: inline-block;
+	width: {{ section.settings.per-row}};
+height: {{ section.settings.height}};
+                background-size:cover; 
+                
+}
+{% endstyle %}
+
+{% javascript %}
+{% endjavascript %}

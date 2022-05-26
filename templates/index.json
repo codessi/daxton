@@ -1,0 +1,976 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMFORT STYLE VALUE",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/section-one.png",
+        "image-link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "16527277571af59856": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display:flex; justify-content: center;  \">\n<img src= \"https:\/\/cdn.shopify.com\/s\/files\/1\/0565\/3223\/8372\/files\/favorite_city_banner.png?v=1652216313&width=335\" \/>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 68,
+        "padding_bottom": 16
+      }
+    },
+    "165325781209283573": {
+      "type": "multicolumn-image",
+      "blocks": {
+        "1653257812588045b2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Los_Angeles.jpg",
+            "title": "",
+            "button_link": "shopify:\/\/collections\/los-angeles-clothing",
+            "text": ""
+          }
+        },
+        "1653257812588045b2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/new_yort.jpg",
+            "title": "",
+            "button_link": "shopify:\/\/collections\/all",
+            "text": ""
+          }
+        },
+        "1653257812588045b2-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chicago.jpg",
+            "title": "",
+            "button_link": "",
+            "text": ""
+          }
+        },
+        "857f5bc7-55fd-47db-b14a-bd9b36cc9e98": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/huston.jpg",
+            "title": "",
+            "button_link": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653257812588045b2-0",
+        "1653257812588045b2-1",
+        "1653257812588045b2-2",
+        "857f5bc7-55fd-47db-b14a-bd9b36cc9e98"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "swipe_on_mobile": false
+      }
+    },
+    "16532580694d6e7015": {
+      "type": "multicolumn-image",
+      "blocks": {
+        "16532580696305c0cf-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/detroit.jpg",
+            "title": "",
+            "button_link": "shopify:\/\/collections\/all",
+            "text": ""
+          }
+        },
+        "16532580696305c0cf-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dallas.jpg",
+            "title": "",
+            "button_link": "shopify:\/\/collections\/all",
+            "text": ""
+          }
+        },
+        "16532580696305c0cf-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alabama.jpg",
+            "title": "",
+            "button_link": "shopify:\/\/collections\/all",
+            "text": ""
+          }
+        },
+        "d88dfeaf-21e0-4425-8ffe-fc9fa244d4b4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/more.jpg",
+            "title": "",
+            "button_link": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16532580696305c0cf-0",
+        "16532580696305c0cf-1",
+        "16532580696305c0cf-2",
+        "d88dfeaf-21e0-4425-8ffe-fc9fa244d4b4"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "swipe_on_mobile": false
+      }
+    },
+    "1652891445815d5876": {
+      "type": "featured-collection-custom",
+      "settings": {
+        "title": "ADULT",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "men-1",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16528914578f474a22": {
+      "type": "featured-collection-custom",
+      "settings": {
+        "title": "KIDS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "kids",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "MEN",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 8
+      }
+    },
+    "1652890527a675bbd9": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "KIDS",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16527280304e2e862f": {
+      "type": "image-banner",
+      "blocks": {
+        "1652728030bee254fd-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1652728030bee254fd-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1652728030bee254fd-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1652728030bee254fd-0",
+        "1652728030bee254fd-1",
+        "1652728030bee254fd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hoodie_section.png",
+        "image-link": "shopify:\/\/collections\/hoodies",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1652728627b647e94d": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1652728627058e6ff3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1652728627058e6ff3-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1652728627058e6ff3-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1652728627058e6ff3-0",
+        "1652728627058e6ff3-1",
+        "1652728627058e6ff3-2"
+      ],
+      "settings": {
+        "image-link": "shopify:\/\/collections\/all",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16529071364b62918a": {
+      "type": "multicolumn",
+      "blocks": {
+        "165290713643fe3b0a-0": {
+          "type": "column",
+          "settings": {
+            "title": "BUCKET HATS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "165290713643fe3b0a-1": {
+          "type": "column",
+          "settings": {
+            "title": "SUMMER WEAR",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "165290713643fe3b0a-2": {
+          "type": "column",
+          "settings": {
+            "title": "SALES",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "aa3af9b5-52c4-4224-a88b-bb29a5184aae": {
+          "type": "column",
+          "settings": {
+            "title": "NEW ARRIVAL",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "165290713643fe3b0a-0",
+        "165290713643fe3b0a-1",
+        "165290713643fe3b0a-2",
+        "aa3af9b5-52c4-4224-a88b-bb29a5184aae"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 76,
+        "padding_bottom": 80
+      }
+    },
+    "1652894851ebdc465e": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1652894851af65e9c4-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1652894851af65e9c4-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "1652894851af65e9c4-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1652894851af65e9c4-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1652894851af65e9c4-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1652894851af65e9c4-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1652894851af65e9c4-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1652894851af65e9c4-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1652894851af65e9c4-0",
+        "1652894851af65e9c4-1",
+        "1652894851af65e9c4-2",
+        "1652894851af65e9c4-3",
+        "1652894851af65e9c4-4",
+        "1652894851af65e9c4-5",
+        "1652894851af65e9c4-6",
+        "1652894851af65e9c4-7"
+      ],
+      "settings": {
+        "product": "daxton-usa-cities-bucket-hat-cap-fisherman-headwear-cap",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "16532560100516c2d0": {
+      "type": "featured-product-left",
+      "blocks": {
+        "1653256010b48676e0-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1653256010b48676e0-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1653256010b48676e0-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1653256010b48676e0-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1653256010b48676e0-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1653256010b48676e0-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1653256010b48676e0-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1653256010b48676e0-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1653256010b48676e0-0",
+        "1653256010b48676e0-1",
+        "1653256010b48676e0-2",
+        "1653256010b48676e0-3",
+        "1653256010b48676e0-4",
+        "1653256010b48676e0-5",
+        "1653256010b48676e0-6",
+        "1653256010b48676e0-7"
+      ],
+      "settings": {
+        "product": "daxton-usa-cities-bucket-hat-cap-fisherman-headwear-cap",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "16528956793f2eafcd": {
+      "type": "featured-product",
+      "blocks": {
+        "1652895679995d3b03-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1652895679995d3b03-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1652895679995d3b03-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1652895679995d3b03-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1652895679995d3b03-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1652895679995d3b03-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "1652895679995d3b03-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1652895679995d3b03-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1652895679995d3b03-0",
+        "1652895679995d3b03-1",
+        "1652895679995d3b03-2",
+        "1652895679995d3b03-3",
+        "1652895679995d3b03-4",
+        "1652895679995d3b03-5",
+        "1652895679995d3b03-6",
+        "1652895679995d3b03-7"
+      ],
+      "settings": {
+        "product": "daxton-youth-unisex-pullover-royal-hoodie-mid-weight-fleece-sweater-custom-white-numbers-and-letters",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16528987002315cb66": {
+      "type": "image-banner",
+      "blocks": {
+        "1652898700f20badcc-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1652898700f20badcc-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1652898700f20badcc-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1652898700f20badcc-0",
+        "1652898700f20badcc-1",
+        "1652898700f20badcc-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DAXTON_DESIGN.png",
+        "image-link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16529074784c3a80e7": {
+      "type": "multicolumn",
+      "blocks": {
+        "165290747848b54a6e-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "PRICE UNDER $50",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "165290747848b54a6e-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "PRICE UNDER $35",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "9da5b152-5d28-4af4-a7c5-16c4f091f4cd": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "PRICE UNDER $15",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "165290747848b54a6e-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "PRICE UNDER $25",
+            "link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "165290747848b54a6e-0",
+        "165290747848b54a6e-1",
+        "9da5b152-5d28-4af4-a7c5-16c4f091f4cd",
+        "165290747848b54a6e-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "16528994993f5b3d53": {
+      "type": "multicolumn",
+      "blocks": {
+        "165289949900bf5c5c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61DeKLtrC3L._AC_SY741._SX._UX._SY._UY.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "TEES",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "165289949900bf5c5c-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/71NwnJOa64L._AC_SY741._SX._UX._SY._UY.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "HATS",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "165289949900bf5c5c-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/longSleeves.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "LONG SLEEVES",
+            "link": ""
+          }
+        },
+        "c1022f83-03d2-4603-bf78-db7716010a60": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slim-pants.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "BOTTOMS",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "165289949900bf5c5c-0",
+        "165289949900bf5c5c-1",
+        "165289949900bf5c5c-2",
+        "c1022f83-03d2-4603-bf78-db7716010a60"
+      ],
+      "settings": {
+        "title": "FIND YOUR STYLE",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 56
+      }
+    },
+    "16529820442b655878": {
+      "type": "coupon",
+      "settings": {
+      }
+    },
+    "1652904764ffc7a8d4": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1652904764cd138552-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "UP TO 25% OFF SELECT STYLES",
+            "heading_size": "h1"
+          }
+        },
+        "1652904764cd138552-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1652904764cd138552-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP HOT PICKS",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1652904764cd138552-0",
+        "1652904764cd138552-1",
+        "1652904764cd138552-2"
+      ],
+      "settings": {
+        "image-link": "",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1652904786da47bb1c": {
+      "type": "newsletter",
+      "blocks": {
+        "165290478671c02226-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "165290478671c02226-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "165290478671c02226-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "165290478671c02226-0",
+        "165290478671c02226-1",
+        "165290478671c02226-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "16527277571af59856",
+    "165325781209283573",
+    "16532580694d6e7015",
+    "1652891445815d5876",
+    "16528914578f474a22",
+    "featured_collection",
+    "1652890527a675bbd9",
+    "16527280304e2e862f",
+    "1652728627b647e94d",
+    "16529071364b62918a",
+    "1652894851ebdc465e",
+    "16532560100516c2d0",
+    "16528956793f2eafcd",
+    "16528987002315cb66",
+    "16529074784c3a80e7",
+    "16528994993f5b3d53",
+    "16529820442b655878",
+    "1652904764ffc7a8d4",
+    "1652904786da47bb1c"
+  ]
+}

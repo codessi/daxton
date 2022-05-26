@@ -1,0 +1,38 @@
+
+
+.container{
+  background-color: rgba(128, 128, 128, 0.58);
+}
+
+.wrapper{
+ background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("http://cdn.shopify.com/s/files/1/0565/3223/8372/files/daxton-backdrop_Frame.png?v=1652904313");
+ background-size: cover;
+ height: 300px; 
+ /* border: dotted; */
+ width:55%;
+ margin: 0 auto;
+ text-align: center;
+ display: flex;
+  align-items: center;
+ justify-content: center;
+ /* filter: brightness(50%); */
+}
+
+.container .wrapper .coupon-card{
+  background-color: black;
+  color: white;
+  padding: 4rem;
+}
+
+.container .wrapper h3{
+  color: white;
+  font-size: 4rem;
+  
+}
+
+.container .wrapper a {
+  color: white;
+  border: 1px solid;
+  padding: 1rem 3rem;
+  text-decoration: none;
+}
